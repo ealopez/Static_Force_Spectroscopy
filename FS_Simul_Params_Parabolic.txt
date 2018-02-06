@@ -1,0 +1,2 @@
+Alfa_cellConstant	SpringConstant(N/m)	TipRadius(nm)
+0.00754247	0.10000000	2000.00000000
