@@ -42,7 +42,7 @@ chi_simul = alfa*pow(tip_log,1.5)/Fdot     #according to eq 19, relation between
 #NON-LINEAR SQUARE FITTING
 arms = 4
 R = (3.0/16*alfa)**2
-Jg_c, tau_c, J_c = chi_fit(t_simul, tip_simul, F_simul, R, t_res, t_exp, arms, 1, 2.0e-10, 5.0e-8, 1.0e-3, 1.0e-7, 1.0e-2, 1.0e-6, 1.0e-1, 1.0e-6, 1.0e0)
+Jg_c, tau_c, J_c = chi_fit(t_simul, tip_simul, F_simul, R, t_res, t_exp, arms, 0, 2.0e-10, 5.0e-8, 1.0e-3, 1.0e-7, 1.0e-2, 1.0e-6, 1.0e-1, 1.0e-6, 1.0e0)
 Jg_a = np.zeros(arms)
 Jg_a[:] = Jg_c
 #NON-LINEAR SQUARE FITTING
