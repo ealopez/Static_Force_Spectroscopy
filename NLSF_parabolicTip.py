@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from Lib_rheology import chi_th, compliance, theta_loss
 
 
-t_res = 1.0e-4   #time resolution (inverse of sampling frequency)
+t_res = 1.0e-4   #time resolution (inverse of sampling frequency)c
 t_exp = 1.0  #total experimental time
 
 
